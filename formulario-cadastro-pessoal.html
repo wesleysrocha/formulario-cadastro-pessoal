@@ -7,7 +7,8 @@
 
     <!-- conexão com o css-->
     <link rel="stylesheet" type="text/css" href="formulario-cadastro-pessoal.css" media="screen">
-
+    <!-- conexão com o js-->
+    <script src="busca-cep.js" type='module' defer></script>
     <!-- título da página-->
     <title>Cadastro Pessoal</title>
 </head>
@@ -34,37 +35,36 @@
             <div class="campo">
                 <label for="email"><strong>Email</strong></label>
                 <input type="email" name="email" id="email" required>                    
-            </div>
-
-                
+            </div>              
         </fieldset>
         
-       
         <fieldset class="grupo">
-                <!-- Campo de CPF com legenda "CPF" e css de classe "campo-->
+            <!-- Campo de CPF com legenda "CPF" e css de classe "campo-->
                 <div class="campo">
                     <label for="cpf"><strong>CPF</strong></label>
                     <input type="text" name="cpf" id="cpf" required>                    
                 </div>
-                <!-- Campo de RG com legenda "RG" e css de classe "campo-->
+            <!-- Campo de RG com legenda "RG" e css de classe "campo-->
                 <div class="campo">
                     <label for="rg"><strong>RG</strong></label>
                     <input type="text" name="rg" id="rg" >                    
                 </div>
-    </fieldset>
+        </fieldset>
          
-    <fieldset class="grupo">
-                <!-- Campo de Celular com legenda "celular" e css de classe "campo-->
+    
+        <fieldset class="grupo">
+           <!-- Campo de Celular com legenda "celular" e css de classe "campo-->
                 <div class="campo">
                     <label for="celular"><strong>Celular</strong></label>
                     <input type="text" name="celular" id="celular" required>                    
                 </div>
-                <!-- Campo de RG com legenda "RG" e css de classe "campo-->
+            <!-- Campo de RG com legenda "RG" e css de classe "campo-->
                 <div class="campo">
                     <label for="fixo"><strong>Telefone Fixo</strong></label>
                     <input type="text" name="fixo" id="fixo" >                    
                 </div>
-    </fieldset>
+        </fieldset>
+
             <!-- Campo de sexo com 2 opções de botões selecionáveis (radio button) e css de classe "campo" -->
             <div class="campo">
                 <label><strong>Qual o seu sexo?</strong></label>
@@ -76,44 +76,45 @@
                 </label>
             </div>
 
-
         <fieldset class="grupo">
             <!-- Campo de cep com legenda "cep" e css de classe "campo-->
-            <div class="campo">
-                <label for="cep"><strong>CEP</strong></label>
-                <input type="text" name="cep" id="cep" required> 
-            </div>
+                <div class="campo">
+                    <label for="cep"><strong>CEP</strong></label>
+                    <input type="text" name="cep" id="cep" required> 
+                </div>
             <!-- Campo de endereco com legenda "endereco" e css de classe "campo-->
-            <div class="campo">
-                <label for="endereco"><strong>Endereço</strong></label>
-                <input type="text" name="endereco" id="endereco" required> 
-            </div>
+                <div class="campo">
+                    <label for="endereco"><strong>Endereço</strong></label>
+                    <input type="text" name="endereco" id="endereco" required> 
+                </div>
         </fieldset>
 
         <fieldset class="grupo">
             <!-- Campo de numero com legenda "numero" e css de classe "campo-->
-            <div class="campo">
-                <label for="numero"><strong>Número</strong></label>
-                <input type="text" name="numero" id="numero" required> 
-            </div>
+                <div class="campo">
+                    <label for="numero"><strong>Número</strong></label>
+                    <input type="text" name="numero" id="numero" required> 
+                </div>
             <!-- Campo de bairro com legenda "bairro" e css de classe "campo-->
-            <div class="campo">
-                <label for="bairro"><strong>Bairro</strong></label>
-                <input type="text" name="bairro" id="bairro"> 
-            </div>
+                <div class="campo">
+                    <label for="bairro"><strong>Bairro</strong></label>
+                    <input type="text" name="bairro" id="bairro"> 
+                </div>
         </fieldset>
+
         <fieldset class="grupo">
-            <div class="campo">
             <!-- Campo de cidade com legenda "cidade" e css de classe "campo-->
-                <label for="cidade"><strong>Cidade</strong></label>
-                <input type="text" name="cidade" id="cidade"> 
-            </div>
-            <div class="campo">
-                <label for="estado"><strong>Estado</strong></label>
-                <input type="text" name="estado" id="estado"> 
-            </div>
-    
+                <div class="campo">
+                    <label for="cidade"><strong>Cidade</strong></label>
+                    <input type="text" name="cidade" id="cidade"> 
+                </div>
+            <!-- Campo de estado com legenda "estado" e css de classe "campo-->
+                <div class="campo">
+                    <label for="estado"><strong>Estado</strong></label>
+                    <input type="text" name="estado" id="estado"> 
+                </div>
         </fieldset>
+
             <!-- Botão para enviar o formulário -->
             <button class="botao" type="submit">Concluído</button>
     </form>
