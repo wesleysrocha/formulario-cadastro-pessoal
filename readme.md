@@ -2,6 +2,11 @@
 # Autores
 - [Wesley Rocha](https://github.com/wesleysrocha)
 
+# Propostas de melhoras 
+- CEP preenche automaticamente o endereço utilizando uma API pública [Via CEP](https://viacep.com.br/).
+- Verificação de e-mail.
+- Mascaras de validação de CPF, RG,telefone fixo e celular somente números sem espaço,"." e "-".
+
 ### Descrição do Desafio da Gama Academy
 Criar um formulario para registrar dados pessoais
 
