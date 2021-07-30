@@ -2,7 +2,7 @@
 # Autores
 - [Wesley Rocha](https://github.com/wesleysrocha)
 
-# Propostas de melhoras 
+# Propostas de melhorias 
 - CEP preenche automaticamente o endereço utilizando uma API pública [Via CEP](https://viacep.com.br/).
 - Verificação de e-mail.
 - Mascaras de validação de CPF, RG,telefone fixo e celular somente números sem espaço,"." e "-".
@@ -12,9 +12,9 @@ Criar um formulario para registrar dados pessoais
 
 #### Front
 ##### Domínio - Modelagem de Dados
- - Cadastro Pessoal com os campos: Nome, Cpf, Rg, Sexo, Endereco, Numero, Bairro, Cidade, Estado, Cep, Telefone Fixo, Telefone Celular.
+ - Cadastro Pessoal com os campos: Nome, CPF, RG, Sexo, Endereco, Numero, Bairro, Cidade, Estado, Cep, Telefone Fixo, Telefone Celular.
 ##### Regra de Negócio
-- Os campos Nome, Cpf, Endereco, Numero, Telefone Celular são obrigatórios
+- Os campos Nome, CPF, Endereco, Numero, Telefone Celular são obrigatórios
 ##### Requisitos
 - Explorar os recursos de CSS
 - Explorar os recursos do Javascript (Ex. Abrir um alert ao submeter o - formulário)
