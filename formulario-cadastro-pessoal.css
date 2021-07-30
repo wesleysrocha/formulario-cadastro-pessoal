@@ -98,12 +98,13 @@ fieldset.grupo .campo{
     font-size: 1.2em;
     background: #04D361;
     border:0;
-    margin-bottom: 1em;
+    margin-top: 20px;
+    margin-bottom: 10px;
     color: #E1E1E6;
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    position: absolute;
+    position: sticky;
     top: 90%;
     left: 50%;
     margin-right: -50%;
@@ -120,4 +121,23 @@ fieldset.grupo .campo{
 /* Elementos de classe botão e de tag <select> */
 .botao, select{
     cursor: pointer;
+}
+
+.rodape{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+p{
+    font-family: sans-serif;
+    color: #04d361;
+}
+div >a >img{
+    height:35px;
+    width:35px; 
+    margin-left: 2em;
+    margin-top:0.2rem; 
+    margin-right: 1em;
 }
