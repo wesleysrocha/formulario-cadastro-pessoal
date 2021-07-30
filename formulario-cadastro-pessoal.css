@@ -88,7 +88,7 @@ fieldset.grupo .campo{
     padding-right: 1em;
 }
 
-/* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
+/* Elemento de classe "campo" com tag <input>, <select> e <textarea> todas com estado da pseudoclasse "focus"*/
 .campo input:focus, .campo select:focus, .campo textarea:focus{
     background: #9ddab8;
 }
@@ -122,7 +122,7 @@ fieldset.grupo .campo{
 .botao, select{
     cursor: pointer;
 }
-
+/* Elementos de classe rodape */
 .rodape{
     position: absolute;
     top: 90%;
@@ -130,10 +130,12 @@ fieldset.grupo .campo{
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
-p{
+/* Elementos de classe legenda */
+.legenda{
     font-family: sans-serif;
     color: #04d361;
 }
+/* logo LinkedIn e github*/
 div >a >img{
     height:35px;
     width:35px; 

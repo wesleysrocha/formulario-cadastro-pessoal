@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="formulario-cadastro-pessoal.css" media="screen">
     <!-- conexão com o js-->
     <script src="busca-cep.js" type='module' defer></script>
+    <script type="text/javascript" src="mask.celular.js"></script>
     <!-- título da página-->
     <title>Cadastro Pessoal</title>
 </head>
@@ -42,12 +43,12 @@
             <!-- Campo de CPF com legenda "CPF" e css de classe "campo-->
                 <div class="campo">
                     <label for="cpf"><strong>CPF</strong></label>
-                    <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" required>                    
+                    <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" pattern="[0-9]{11}"required>                    
                 </div>
             <!-- Campo de RG com legenda "RG" e css de classe "campo-->
                 <div class="campo">
                     <label for="rg"><strong>RG</strong></label>
-                    <input type="text" name="rg" id="rg" placeholder="Digite seu RG">                    
+                    <input type="text" name="rg" id="rg" placeholder="Digite seu RG" pattern="[0-9]{9}">                    
                 </div>
         </fieldset>
          
@@ -56,12 +57,12 @@
            <!-- Campo de Celular com legenda "celular" e css de classe "campo-->
                 <div class="campo">
                     <label for="celular"><strong>Celular</strong></label>
-                    <input type="text" name="celular" id="celular" placeholder="Digite seu celular" required>                    
+                    <input type="text" name="celular" id="celular" placeholder="Digite seu celular"pattern="[0-9]{11}" required>                    
                 </div>
             <!-- Campo de RG com legenda "RG" e css de classe "campo-->
                 <div class="campo">
                     <label for="telefone"><strong>Telefone Fixo</strong></label>
-                    <input type="text" name="telefone" id="telefone" placeholder="Digite seu telefone fixo">                    
+                    <input type="text" name="telefone" id="telefone" placeholder="Digite seu telefone fixo" pattern="[0-9]{10}">                    
                 </div>
         </fieldset>
 
@@ -118,10 +119,11 @@
             <!-- Botão para enviar o formulário -->
                 <button class="botao" type="submit">Enviar</button>
     </form>
-
+            <!-- Início do footer classe rodapé -->
     <footer class="rodape">
         <div class="campo">
-        <p class="legend"><strong>Desenvolvido por: Wesley Rocha</strong></p>
+        <p class="legenda"><strong>Desenvolvido por: Wesley Rocha</strong></p>
+            <!-- logo LinkedIn e github com os links do autor -->
         <a href="https://github.com/wesleysrocha/formulario-cadastro-pessoal"> <img src="img/github-logo.png" alt="GitHub"/></a>
         <a href="https://www.linkedin.com/in/wesley-s-rocha/"> <img src="img/linkedin-logo.png" alt="LinkedIn"/>
         </div> </a>    
